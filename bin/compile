@@ -92,7 +92,7 @@ fi
   npm install bower grunt grunt-cli
   status "Installing dependencies"
   $build_dir/node_modules/.bin/bower install
-  npm install
+  npm install --production
   $build_dir/node_modules/.bin/grunt
 )
 
